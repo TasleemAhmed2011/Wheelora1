@@ -1,0 +1,130 @@
+/* Modern Body Background & Text */
+/* --- Global Styles --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(145deg, #0a1f3d, #1c1f26);
+  color: #f0f0f0;
+
+/* --- Navigation Bar (Glass Effect) --- */
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Reduced gap between items */
+  flex-wrap: nowrap; /* Prevent items from wrapping */
+  background: rgba(10, 31, 61, 0.85); /* semi-transparent */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 8px 16px; /* Reduced padding */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+
+.topnav a {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff69b4;
+  text-decoration: none;
+  font-size: 14px; /* Smaller font size */
+  padding: 8px 12px; /* Reduced padding */
+  border-radius: 6px; /* Slightly smaller border radius */
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
+}
+
+
+
+.topnav a:hover {
+  background-color: #5a189a;
+  color: #00bfff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topnav a.active {
+  background-color: #9acd32;
+  color: darkcyan;
+}
+
+/* --- Heading Styling --- */
+h1 {
+  font-family: "Tagesschrift", "Segoe UI", sans-serif;
+  font-size: 3rem;
+  color: #f0f0f0;
+  text-align: center;
+  margin: 40px 0 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Add smooth transitions for entire site */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Scrollbar styling (optional) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1c1f26;
+}
+::-webkit-scrollbar-thumb {
+  background: #5a189a;
+  border-radius: 5px;
+}
+
+
+
+  .carousel-container {
+
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 300px; /* Adjust based on your image height */
+    
+    }
+    
+    /* Hide all slides by default */
+    
+    .myslides {
+    
+    display: none;
+    
+    max-height: 100%; /* Ensure images fit within container */
+    
+    max-width: 100%;
+    
+    }
+    .site-footer .contact-list a {
+      color: #ff6600;         /* bright orange */
+      text-decoration: none;  /* optional: remove underline */
+      transition: color 0.3s;
+    }
+    
+    .site-footer .contact-list a:hover {
+      color: #e65c00;         /* slightly darker on hover */
+    }
+    /* Social media links in the footer */
+.site-footer .social-media a {
+  color: #ff6600;         /* bright orange */
+  text-decoration: none;  /* optional: remove underline */
+  font-weight: 600;       /* optional: bold the links */
+  transition: color 0.3s;
+}
+
+.site-footer .social-media a:hover {
+  color: #e65c00;         /* slightly darker on hover */
+}
+
+
+    
